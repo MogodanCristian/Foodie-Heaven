@@ -15,6 +15,7 @@ const Container = styledComponents.div`
 const Title = styledComponents.h1`
     font-size: 70px;
     margin-bottom: 20px;
+    margin-top: 20px;
 `
 
 const Desc = styledComponents.div`
