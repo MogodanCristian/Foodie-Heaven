@@ -7,7 +7,7 @@ const User = require('../model/User');
 const createAndAssignJWT = (user, res) => {
     // Create and assign JWT for this session
     const token = jwt.sign({_id: user._id}, process.env.TOKEN_SECRET, {expiresIn:'30d'});
-    res.status(200).header('auth-token-mazefm', token).send(
+    res.status(200).header('auth-token-foodie-heaven', token).send(
         {
             id: user._id,
             jwt: token,
