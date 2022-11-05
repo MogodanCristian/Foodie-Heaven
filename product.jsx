@@ -16,7 +16,8 @@ const styles = StyleSheet.create({
 
     titleStyle: {
         fontSize: 19,
-        fontWeight: "700"
+        fontWeight: "700",
+	padding: 20
     }, 
 })
 export default function MenuItems({restaurantName, foods, hideCheckbox, marginLeft}) {
